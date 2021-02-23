@@ -130,20 +130,20 @@
  
 // }
 // - Відтворити роботу годинника, відрахувавши  2 години 20 хвилини (3 цикли! 1й - години, 2й - хвилини, 3й - секунди)
-// for (let i = 0; i < 2; i++) {
-//     for (let j = 0; j < 60; j++) {
-//         for (let k = 0; k < 60; k++) {
-//             console.log(i, j, k);
+for (let i = 0; i < 2; i++) {
+    for (let j = 0; j < 60; j++) {
+        for (let k = 0; k < 60; k++) {
+            console.log(i, j, k);
 
-//             if (i === 1 && j === 20) {
-//                 i = 24;
-//                j = 60;
-//                 break;
-//             }    
-//         }
+            if (i === 1 && j === 20) {
+                i = 24;
+               j = 60;
+                break;
+            }    
+        }
         
-//     }
-// }
+    }
+}
 
 for (let hour = 0; hour < 24; hour++) {
 
@@ -217,7 +217,7 @@ for (let hour = 0; hour < 24; hour++) {
 // let jq = strings.pop();
 // console.log(jq);
 // - Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції slice перетворіть масив в [4, 5].
-let num = [1, 2, 3, 4, 5];
+// let num = [1, 2, 3, 4, 5];
 // console.log(num.slice(3));
 
 // // - Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції slice перетворіть масив в [1,2].
@@ -233,10 +233,10 @@ let num = [1, 2, 3, 4, 5];
 // console.log(num);
 // - Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції splice зробіть з нього масив [1, 'a', 'b', 2, 3, 4, 'c', 5, 'e'].
 
-num.splice(1, 0, 'a', 'b');
-num.splice(6, 0, 'c');
-num.push('e');
-console.log(num);
+// num.splice(1, 0, 'a', 'b');
+// num.splice(6, 0, 'c');
+// num.push('e');
+// console.log(num);
 // - Взяти масив з 10 чисел або створити його. Вивести в консоль тільки ті елементи, значення яких є парними.
 
 // function isEven(num) {
@@ -439,18 +439,18 @@ console.log(num);
 
 // - Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for зібрати всі букви в слово.
 
-let letters = ['a', 'b', 'c'];
+// let letters = ['a', 'b', 'c'];
 // let a = letters.join('');
 // console.log(a);
 
-let str = '';
+// let str = '';
 // for (let k = 0; k < letters.length; k++) {
 //     str = str + letters[k];
 // }
 // console.log(str);
 // - Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу while зібрати всі букви в слово.
 // - Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for of зібрати всі букви в слово.
-for (const iterator of letters) {
-    str = str + iterator;
-}
-console.log(str);
+// for (const iterator of letters) {
+//     str = str + iterator;
+// }
+// console.log(str);
